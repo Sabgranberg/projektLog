@@ -5,10 +5,10 @@
 }
 
 header {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../IMG/Baggrund.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../IMG/Hjerte.png");
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 ul {
@@ -26,21 +26,21 @@ ul li {
 ul li a{
     text-decoration: none;
     font-size: 15px;
-    color: #fff;
+    color: #c71919;
     padding: 10px 40px;
     border: 1px solid transparent;
     transition:1s ease;
 }
 
 ul li a:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #c71919;
+    color: #ffffff;
     transition: 1s ease;
 }
 
 ul li.active a{
-    background-color: #fff;
-    color: #000;
+    background-color: #c71919;
+    color: #ffffff;
 }
 
 ul li ul{
@@ -89,7 +89,7 @@ ul li ul li a:hover {
 }
 
 .title h1{
-    color: #ffffff;
+    color: rgb(199, 25, 25);
     font-size: 70px;
 }
 
@@ -101,16 +101,16 @@ ul li ul li a:hover {
 }
 
 .btn{
-    border: 1px solid #ffffff;
+    border: 1px solid #c71919;
     padding:10px 30px;
-    color: #ffffff;
+    color: #c71919;
     text-decoration: none;
     transition: 1s ease;
 }
 
 .btn:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #c71919;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -133,9 +133,9 @@ th {
 
 table, th, td {
     width: 400px;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     border-collapse: collapse;
-    color: white;
+    color: #000000;
 }
 
 th, td {
